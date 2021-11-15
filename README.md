@@ -1,6 +1,6 @@
 ## Visualforce Namespace Precedence Bug
 
-###Repro case
+### Repro case
 ```
 sfdx force:org:create -f config/project-scratch-def.json --setdefaultusername
 sfdx force:source:push
@@ -18,8 +18,9 @@ git checkout api53
 sfdx force:source:push
 ```
 
-###Expected: Success
-###Actual:
+### Expected: Success
+
+### Actual:
 ```
 components/GatewayRender.component: ERROR at line 1, column 1 - Invalid field something for SObject PaymentGateway
 ```
