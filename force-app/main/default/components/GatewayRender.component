@@ -1,0 +1,9 @@
+<!--
+ - Created by esposito on 11/15/2021.
+ -->
+
+<apex:component id="GatewayRender" access="global">
+    <apex:attribute name="pg" type="PaymentGateway" required="true" description="N/A" access="global"></apex:attribute>
+
+    This should say Hey there: {!pg.something}
+</apex:component>
