@@ -5,5 +5,5 @@
 <apex:component id="GatewayRender" access="global">
     <apex:attribute name="pg" type="PaymentGateway" required="true" description="N/A" access="global"></apex:attribute>
 
-    This should say Hey there: {!pg.something}
+    This should say Hey there: {!pg}
 </apex:component>
